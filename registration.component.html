@@ -1,0 +1,52 @@
+
+<div class="container">  
+    <div class="row">  
+        <div class="form_bg">  
+            <form #form="ngForm" (ngSubmit)="registration(form)">  
+                 <h2 class="text-center">   please enter your details below</h2>  
+                <br/>  
+                <div class="form-group">  
+                    <input type="text" class="form-control" placeholder="Phone number" name="firstname" required ngModel>
+                    
+                </div>  
+                <br/>
+                <div class="form-group">  
+                    <input type="text" class="form-control"  placeholder="PAN Card Number" name="lastname" required ngModel>
+                      
+                </div>  
+                <br/>
+
+                <div class="form-group">  
+                    <input type="text" class="form-control" placeholder="Name as in PAN Card" name="firstname" required ngModel>
+                    
+                </div>  
+                <br/>
+
+
+
+                <div class="form-group">  
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email" email required ngModel #email="ngModel">  
+                   
+                </div>  
+
+
+
+
+                <div class="form-group">  
+                </div>  
+                <br/>  
+
+                <div class="align-center">  
+                    <button type="submit" class="btn btn-default" id="cancel" style="background-color: rgb(4, 83, 83);"  >Cancel</button>  
+                </div>
+
+
+                <div class="align-center">  
+                    <button type="submit" class="btn btn-default" id="register" style="background-color: aqua;"  >Activate Now</button>  
+                </div>  
+            </form>  
+        </div>  
+    </div>  
+  </div> 
+
+
